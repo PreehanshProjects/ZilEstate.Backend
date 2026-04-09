@@ -1,0 +1,11 @@
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\bin\Debug\net9.0\ZilEstate.Domain.deps.json
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\bin\Debug\net9.0\ZilEstate.Domain.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\bin\Debug\net9.0\ZilEstate.Domain.pdb
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ZilEstate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ZilEstate.Domain.AssemblyInfoInputs.cache
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ZilEstate.Domain.AssemblyInfo.cs
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ZilEstate.Domain.csproj.CoreCompileInputs.cache
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ZilEstate.Domain.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\refint\ZilEstate.Domain.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ZilEstate.Domain.pdb
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Domain\obj\Debug\net9.0\ref\ZilEstate.Domain.dll

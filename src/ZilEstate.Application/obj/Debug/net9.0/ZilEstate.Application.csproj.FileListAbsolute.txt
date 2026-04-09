@@ -1,0 +1,15 @@
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\bin\Debug\net9.0\ZilEstate.Application.deps.json
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\bin\Debug\net9.0\ZilEstate.Application.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\bin\Debug\net9.0\ZilEstate.Application.pdb
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\bin\Debug\net9.0\ZilEstate.Domain.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\bin\Debug\net9.0\ZilEstate.Domain.pdb
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.csproj.AssemblyReference.cache
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.AssemblyInfoInputs.cache
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.AssemblyInfo.cs
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.csproj.CoreCompileInputs.cache
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstat.4306783F.Up2Date
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\refint\ZilEstate.Application.dll
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ZilEstate.Application.pdb
+D:\Personal applications\ZilEstate\backend\src\ZilEstate.Application\obj\Debug\net9.0\ref\ZilEstate.Application.dll

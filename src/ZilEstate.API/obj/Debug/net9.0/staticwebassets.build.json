@@ -1,0 +1,1876 @@
+{
+  "Version": 1,
+  "Hash": "eD3yxblr5ZQBrvw6U2rIvkXaF1cffhXr7d22svqscsM=",
+  "Source": "ZilEstate.API",
+  "BasePath": "_content/ZilEstate.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ZilEstate.API\\wwwroot",
+      "Source": "ZilEstate.API",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\065ad9e1-8400-4678-b8c6-2c94702ea6c0.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/065ad9e1-8400-4678-b8c6-2c94702ea6c0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfclzckwqi",
+      "Integrity": "09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\065ad9e1-8400-4678-b8c6-2c94702ea6c0.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfclzckwqi",
+      "Integrity": "09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\2e0e53ef-6ce2-40aa-8371-aa6aef171509.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/2e0e53ef-6ce2-40aa-8371-aa6aef171509#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3fe7agj4s5",
+      "Integrity": "v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2e0e53ef-6ce2-40aa-8371-aa6aef171509.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\31686ced-2838-4fdb-aedc-ae354a16ac19.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/31686ced-2838-4fdb-aedc-ae354a16ac19#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfclzckwqi",
+      "Integrity": "09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\31686ced-2838-4fdb-aedc-ae354a16ac19.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\356af297-2805-4c09-b312-fda662f51dce.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/356af297-2805-4c09-b312-fda662f51dce#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "anmwbby9ow",
+      "Integrity": "ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\356af297-2805-4c09-b312-fda662f51dce.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\399515d9-b18d-42b1-bbd4-7d8e9112f9f8.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/399515d9-b18d-42b1-bbd4-7d8e9112f9f8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnbzxuwwft",
+      "Integrity": "R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\399515d9-b18d-42b1-bbd4-7d8e9112f9f8.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\6038c6bd-4065-464d-a861-80566eda1544.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/6038c6bd-4065-464d-a861-80566eda1544#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "anmwbby9ow",
+      "Integrity": "ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6038c6bd-4065-464d-a861-80566eda1544.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\60c750e8-44ae-49e7-bcf5-4653ad98f2f3.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/60c750e8-44ae-49e7-bcf5-4653ad98f2f3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "anmwbby9ow",
+      "Integrity": "ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\60c750e8-44ae-49e7-bcf5-4653ad98f2f3.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\6618ff04-8de5-4ce2-a087-061e681807f9.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/6618ff04-8de5-4ce2-a087-061e681807f9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "anmwbby9ow",
+      "Integrity": "ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6618ff04-8de5-4ce2-a087-061e681807f9.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\862283a8-415c-4ab3-b9f1-a379b803e5e0.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/862283a8-415c-4ab3-b9f1-a379b803e5e0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnbzxuwwft",
+      "Integrity": "R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\862283a8-415c-4ab3-b9f1-a379b803e5e0.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\867fadb9-b033-4449-9c19-013e9b6316c1.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/867fadb9-b033-4449-9c19-013e9b6316c1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfclzckwqi",
+      "Integrity": "09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\867fadb9-b033-4449-9c19-013e9b6316c1.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\89b52487-7e0a-4102-a4df-0bf4a623867f.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/89b52487-7e0a-4102-a4df-0bf4a623867f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3fe7agj4s5",
+      "Integrity": "v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\89b52487-7e0a-4102-a4df-0bf4a623867f.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\942d118a-dc68-43b0-8493-e56d948eb0b9.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/942d118a-dc68-43b0-8493-e56d948eb0b9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnbzxuwwft",
+      "Integrity": "R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\942d118a-dc68-43b0-8493-e56d948eb0b9.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\9699894b-3c25-491f-a46a-97b29ffadca7.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/9699894b-3c25-491f-a46a-97b29ffadca7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3fe7agj4s5",
+      "Integrity": "v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9699894b-3c25-491f-a46a-97b29ffadca7.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/c8fa03fc-9ee7-46d7-a724-4fd9b44d1289#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnbzxuwwft",
+      "Integrity": "R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\ce24979c-587c-40ed-af33-b52eb865cf58.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/ce24979c-587c-40ed-af33-b52eb865cf58#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3fe7agj4s5",
+      "Integrity": "v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ce24979c-587c-40ed-af33-b52eb865cf58.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\d59a7676-16d4-440c-beca-8ce9ee6e89ae.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/d59a7676-16d4-440c-beca-8ce9ee6e89ae#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfclzckwqi",
+      "Integrity": "09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d59a7676-16d4-440c-beca-8ce9ee6e89ae.jpg"
+    },
+    {
+      "Identity": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\d6fc738c-1315-47db-af94-5cad0c15f7bd.jpg",
+      "SourceId": "ZilEstate.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\",
+      "BasePath": "_content/ZilEstate.API",
+      "RelativePath": "uploads/d6fc738c-1315-47db-af94-5cad0c15f7bd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfclzckwqi",
+      "Integrity": "09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d6fc738c-1315-47db-af94-5cad0c15f7bd.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/065ad9e1-8400-4678-b8c6-2c94702ea6c0.hfclzckwqi.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\065ad9e1-8400-4678-b8c6-2c94702ea6c0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfclzckwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/065ad9e1-8400-4678-b8c6-2c94702ea6c0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/065ad9e1-8400-4678-b8c6-2c94702ea6c0.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\065ad9e1-8400-4678-b8c6-2c94702ea6c0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.hfclzckwqi.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:54:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfclzckwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\2aec4fc9-450d-4c52-87f0-6d7f0e3b86ff.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:54:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2e0e53ef-6ce2-40aa-8371-aa6aef171509.3fe7agj4s5.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\2e0e53ef-6ce2-40aa-8371-aa6aef171509.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3fe7agj4s5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2e0e53ef-6ce2-40aa-8371-aa6aef171509.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2e0e53ef-6ce2-40aa-8371-aa6aef171509.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\2e0e53ef-6ce2-40aa-8371-aa6aef171509.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/31686ced-2838-4fdb-aedc-ae354a16ac19.hfclzckwqi.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\31686ced-2838-4fdb-aedc-ae354a16ac19.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfclzckwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/31686ced-2838-4fdb-aedc-ae354a16ac19.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/31686ced-2838-4fdb-aedc-ae354a16ac19.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\31686ced-2838-4fdb-aedc-ae354a16ac19.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/356af297-2805-4c09-b312-fda662f51dce.anmwbby9ow.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\356af297-2805-4c09-b312-fda662f51dce.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "anmwbby9ow"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/356af297-2805-4c09-b312-fda662f51dce.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/356af297-2805-4c09-b312-fda662f51dce.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\356af297-2805-4c09-b312-fda662f51dce.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/399515d9-b18d-42b1-bbd4-7d8e9112f9f8.dnbzxuwwft.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\399515d9-b18d-42b1-bbd4-7d8e9112f9f8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnbzxuwwft"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/399515d9-b18d-42b1-bbd4-7d8e9112f9f8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/399515d9-b18d-42b1-bbd4-7d8e9112f9f8.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\399515d9-b18d-42b1-bbd4-7d8e9112f9f8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6038c6bd-4065-464d-a861-80566eda1544.anmwbby9ow.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\6038c6bd-4065-464d-a861-80566eda1544.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "anmwbby9ow"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6038c6bd-4065-464d-a861-80566eda1544.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6038c6bd-4065-464d-a861-80566eda1544.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\6038c6bd-4065-464d-a861-80566eda1544.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/60c750e8-44ae-49e7-bcf5-4653ad98f2f3.anmwbby9ow.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\60c750e8-44ae-49e7-bcf5-4653ad98f2f3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "anmwbby9ow"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/60c750e8-44ae-49e7-bcf5-4653ad98f2f3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/60c750e8-44ae-49e7-bcf5-4653ad98f2f3.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\60c750e8-44ae-49e7-bcf5-4653ad98f2f3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6618ff04-8de5-4ce2-a087-061e681807f9.anmwbby9ow.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\6618ff04-8de5-4ce2-a087-061e681807f9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "anmwbby9ow"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6618ff04-8de5-4ce2-a087-061e681807f9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6618ff04-8de5-4ce2-a087-061e681807f9.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\6618ff04-8de5-4ce2-a087-061e681807f9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2097820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppGev1Iq3PMCNu8l6g8FZRudgpww+mQg2YD0zPLCC5k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/862283a8-415c-4ab3-b9f1-a379b803e5e0.dnbzxuwwft.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\862283a8-415c-4ab3-b9f1-a379b803e5e0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnbzxuwwft"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/862283a8-415c-4ab3-b9f1-a379b803e5e0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/862283a8-415c-4ab3-b9f1-a379b803e5e0.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\862283a8-415c-4ab3-b9f1-a379b803e5e0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/867fadb9-b033-4449-9c19-013e9b6316c1.hfclzckwqi.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\867fadb9-b033-4449-9c19-013e9b6316c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfclzckwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/867fadb9-b033-4449-9c19-013e9b6316c1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/867fadb9-b033-4449-9c19-013e9b6316c1.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\867fadb9-b033-4449-9c19-013e9b6316c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/89b52487-7e0a-4102-a4df-0bf4a623867f.3fe7agj4s5.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\89b52487-7e0a-4102-a4df-0bf4a623867f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3fe7agj4s5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/89b52487-7e0a-4102-a4df-0bf4a623867f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/89b52487-7e0a-4102-a4df-0bf4a623867f.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\89b52487-7e0a-4102-a4df-0bf4a623867f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/942d118a-dc68-43b0-8493-e56d948eb0b9.dnbzxuwwft.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\942d118a-dc68-43b0-8493-e56d948eb0b9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnbzxuwwft"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/942d118a-dc68-43b0-8493-e56d948eb0b9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/942d118a-dc68-43b0-8493-e56d948eb0b9.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\942d118a-dc68-43b0-8493-e56d948eb0b9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9699894b-3c25-491f-a46a-97b29ffadca7.3fe7agj4s5.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\9699894b-3c25-491f-a46a-97b29ffadca7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3fe7agj4s5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9699894b-3c25-491f-a46a-97b29ffadca7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9699894b-3c25-491f-a46a-97b29ffadca7.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\9699894b-3c25-491f-a46a-97b29ffadca7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:00:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.dnbzxuwwft.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnbzxuwwft"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\c8fa03fc-9ee7-46d7-a724-4fd9b44d1289.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 17:37:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R+HsaWzwakebu/Etp6I0YRec/8fTyG2s9ztPBAOnamo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ce24979c-587c-40ed-af33-b52eb865cf58.3fe7agj4s5.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\ce24979c-587c-40ed-af33-b52eb865cf58.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3fe7agj4s5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ce24979c-587c-40ed-af33-b52eb865cf58.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ce24979c-587c-40ed-af33-b52eb865cf58.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\ce24979c-587c-40ed-af33-b52eb865cf58.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v/4Gjeunwa9vC9CJOX8m3PG+5B3NqyHdkb3uPNniLUs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d59a7676-16d4-440c-beca-8ce9ee6e89ae.hfclzckwqi.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\d59a7676-16d4-440c-beca-8ce9ee6e89ae.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:54:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfclzckwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d59a7676-16d4-440c-beca-8ce9ee6e89ae.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d59a7676-16d4-440c-beca-8ce9ee6e89ae.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\d59a7676-16d4-440c-beca-8ce9ee6e89ae.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 02:54:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d6fc738c-1315-47db-af94-5cad0c15f7bd.hfclzckwqi.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\d6fc738c-1315-47db-af94-5cad0c15f7bd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfclzckwqi"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d6fc738c-1315-47db-af94-5cad0c15f7bd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d6fc738c-1315-47db-af94-5cad0c15f7bd.jpg",
+      "AssetFile": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.API\\wwwroot\\uploads\\d6fc738c-1315-47db-af94-5cad0c15f7bd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1084835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Apr 2026 03:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-09poqm5enBivdWOiVTORUPRKXVxzl/8pPGwnfGWC4/o="
+        }
+      ]
+    }
+  ]
+}
