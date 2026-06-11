@@ -14,24 +14,28 @@ public class ReportService
         _context = context;
     }
 
-    public async Task<PropertyReportDto> CreateAsync(CreatePropertyReportDto dto, int? userId, CancellationToken cancellationToken = default)
+    public async Task<PropertyReportDto?> CreateAsync(CreatePropertyReportDto dto, int? userId, CancellationToken cancellationToken = default)
     {
+        var property = await _context.Properties
+            .AsNoTracking()
+            .FirstOrDefaultAsync(p => p.Id == dto.PropertyId, cancellationToken);
+
+        if (property == null) return null;
+
         var report = new PropertyReport
         {
             PropertyId = dto.PropertyId,
             ReporterId = userId,
-            ReporterName = dto.ReporterName,
-            ReporterEmail = dto.ReporterEmail,
-            Reason = dto.Reason,
-            Details = dto.Details,
+            ReporterName = dto.ReporterName.Trim(),
+            ReporterEmail = dto.ReporterEmail.Trim(),
+            Reason = dto.Reason.Trim(),
+            Details = string.IsNullOrWhiteSpace(dto.Details) ? null : dto.Details.Trim(),
             Status = "Pending",
             CreatedAt = DateTime.UtcNow
         };
 
         _context.PropertyReports.Add(report);
         await _context.SaveChangesAsync(cancellationToken);
-
-        var property = await _context.Properties.FindAsync(new object[] { dto.PropertyId }, cancellationToken);
 
         return new PropertyReportDto
         {
@@ -74,7 +78,7 @@ public class ReportService
         var report = await _context.PropertyReports.FindAsync(new object[] { id }, cancellationToken);
         if (report == null) return false;
 
-        report.Status = status;
+        report.Status = status.Trim();
         await _context.SaveChangesAsync(cancellationToken);
         return true;
     }

@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 using System.Security.Claims;
 using ZilEstate.Application.DTOs;
 using ZilEstate.Application.Services;
@@ -11,6 +13,15 @@ namespace ZilEstate.API.Controllers;
 [Route("api/[controller]")]
 public class PropertiesController : ControllerBase
 {
+    private const long MaxImageBytes = 5 * 1024 * 1024;
+    private static readonly IReadOnlyDictionary<string, string> AllowedImageTypes =
+        new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["image/jpeg"] = ".jpg",
+            ["image/png"] = ".png",
+            ["image/webp"] = ".webp",
+        };
+
     private readonly PropertyService _propertyService;
     private readonly IWebHostEnvironment _env;
 
@@ -193,27 +204,64 @@ public class PropertiesController : ControllerBase
     }
 
     [HttpPost("upload")]
+    [Authorize]
+    [EnableRateLimiting("upload")]
+    [RequestSizeLimit(6 * 1024 * 1024)]
+    [RequestFormLimits(MultipartBodyLengthLimit = 6 * 1024 * 1024)]
     public async Task<IActionResult> UploadImage(IFormFile file, CancellationToken cancellationToken)
     {
         if (file == null || file.Length == 0)
             return BadRequest(new { message = "No file provided" });
 
-        var uploadsDir = Path.Combine(_env.ContentRootPath, "wwwroot", "uploads");
+        if (file.Length > MaxImageBytes)
+            return BadRequest(new { message = "Image must be 5 MB or smaller" });
+
+        if (!AllowedImageTypes.TryGetValue(file.ContentType, out var extension))
+            return BadRequest(new { message = "Invalid image type. Allowed: JPEG, PNG, and WebP" });
+
+        await using var input = file.OpenReadStream();
+        var header = new byte[12];
+        var headerLength = await input.ReadAsync(header.AsMemory(0, header.Length), cancellationToken);
+        var detectedContentType = DetectImageContentType(header.AsSpan(0, headerLength));
+
+        if (detectedContentType == null ||
+            !string.Equals(detectedContentType, file.ContentType, StringComparison.OrdinalIgnoreCase))
+        {
+            return BadRequest(new { message = "File content does not match a supported image type" });
+        }
+
+        var now = DateTime.UtcNow;
+        var relativeDirectory = Path.Combine(now.ToString("yyyy"), now.ToString("MM"));
+        var uploadsDir = Path.Combine(_env.ContentRootPath, "wwwroot", "uploads", relativeDirectory);
         Directory.CreateDirectory(uploadsDir);
 
-        var ext = Path.GetExtension(file.FileName).ToLowerInvariant();
-        var allowed = new[] { ".jpg", ".jpeg", ".png", ".webp", ".gif", ".mp4", ".mov", ".webm", ".avi", ".mkv" };
-        if (!allowed.Contains(ext))
-            return BadRequest(new { message = "Invalid file type. Allowed: images (jpg, png, webp, gif) and videos (mp4, mov, webm, avi, mkv)" });
-
-        var fileName = $"{Guid.NewGuid()}{ext}";
+        var fileName = $"{Convert.ToHexString(RandomNumberGenerator.GetBytes(24)).ToLowerInvariant()}{extension}";
         var filePath = Path.Combine(uploadsDir, fileName);
 
-        await using var stream = System.IO.File.Create(filePath);
-        await file.CopyToAsync(stream, cancellationToken);
+        await using var output = new FileStream(filePath, FileMode.CreateNew, FileAccess.Write, FileShare.None);
+        await output.WriteAsync(header.AsMemory(0, headerLength), cancellationToken);
+        await input.CopyToAsync(output, cancellationToken);
 
-        var url = $"{Request.Scheme}://{Request.Host}/uploads/{fileName}";
+        var url = $"/uploads/{now:yyyy}/{now:MM}/{fileName}";
         return Ok(url);
+    }
+
+    private static string? DetectImageContentType(ReadOnlySpan<byte> header)
+    {
+        if (header.Length >= 3 && header[0] == 0xFF && header[1] == 0xD8 && header[2] == 0xFF)
+            return "image/jpeg";
+
+        if (header.Length >= 8 &&
+            header[0] == 0x89 && header[1] == 0x50 && header[2] == 0x4E && header[3] == 0x47 &&
+            header[4] == 0x0D && header[5] == 0x0A && header[6] == 0x1A && header[7] == 0x0A)
+            return "image/png";
+
+        if (header.Length >= 12 &&
+            header[0] == 0x52 && header[1] == 0x49 && header[2] == 0x46 && header[3] == 0x46 &&
+            header[8] == 0x57 && header[9] == 0x45 && header[10] == 0x42 && header[11] == 0x50)
+            return "image/webp";
+
+        return null;
     }
 
     [HttpGet("{id}/similar")]

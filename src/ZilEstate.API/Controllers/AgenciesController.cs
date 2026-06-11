@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc;
 using ZilEstate.Application.DTOs;
 using ZilEstate.Application.Services;
@@ -65,6 +66,7 @@ public class AgenciesController : ControllerBase
         Ok(await _agencyService.GetReviewsAsync(id));
 
     [HttpPost("{id}/reviews")]
+    [EnableRateLimiting("review")]
     public async Task<IActionResult> AddReview(int id, [FromBody] CreateAgencyReviewDto dto) =>
         Ok(await _agencyService.AddReviewAsync(id, dto));
 

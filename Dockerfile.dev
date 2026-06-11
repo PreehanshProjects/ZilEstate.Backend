@@ -1,0 +1,18 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY ZilEstate.sln ./
+COPY src/ZilEstate.API/ZilEstate.API.csproj src/ZilEstate.API/
+COPY src/ZilEstate.Application/ZilEstate.Application.csproj src/ZilEstate.Application/
+COPY src/ZilEstate.Domain/ZilEstate.Domain.csproj src/ZilEstate.Domain/
+COPY src/ZilEstate.Infrastructure/ZilEstate.Infrastructure.csproj src/ZilEstate.Infrastructure/
+RUN dotnet restore src/ZilEstate.API/ZilEstate.API.csproj
+
+EXPOSE 5000
+
+ENTRYPOINT ["dotnet", "watch", "run", "--project", "src/ZilEstate.API/ZilEstate.API.csproj", "--urls", "http://0.0.0.0:5000"]

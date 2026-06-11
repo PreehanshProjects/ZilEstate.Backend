@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc;
 using ZilEstate.Application.DTOs;
 using ZilEstate.Application.Services;
@@ -16,6 +17,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("register")]
+    [EnableRateLimiting("register")]
     public async Task<IActionResult> Register(RegisterDto dto, CancellationToken cancellationToken)
     {
         var response = await _authService.RegisterAsync(dto, cancellationToken);
@@ -26,6 +28,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
+    [EnableRateLimiting("login")]
     public async Task<IActionResult> Login(LoginDto dto, CancellationToken cancellationToken)
     {
         var response = await _authService.LoginAsync(dto, cancellationToken);

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using ZilEstate.Application.DTOs;
@@ -27,6 +28,7 @@ public class ReviewsController : ControllerBase
     }
 
     [HttpPost("properties/{propertyId:int}/reviews")]
+    [EnableRateLimiting("review")]
     public async Task<IActionResult> AddReview(int propertyId, [FromBody] CreateReviewDto dto, CancellationToken ct)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -44,6 +46,7 @@ public class ReviewsController : ControllerBase
     }
 
     [HttpPost("properties/{propertyId:int}/questions")]
+    [EnableRateLimiting("review")]
     public async Task<IActionResult> AddQuestion(int propertyId, [FromBody] CreateQuestionDto dto, CancellationToken ct)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using ZilEstate.Application.DTOs;
@@ -18,6 +19,7 @@ public class ReportsController : ControllerBase
     }
 
     [HttpPost]
+    [EnableRateLimiting("report")]
     public async Task<IActionResult> CreateReport([FromBody] CreatePropertyReportDto dto, CancellationToken cancellationToken)
     {
         int? userId = null;
@@ -26,7 +28,10 @@ public class ReportsController : ControllerBase
             userId = uid;
 
         var report = await _reportService.CreateAsync(dto, userId, cancellationToken);
-        return Ok(report);
+        if (report == null)
+            return NotFound(new { message = "Property not found" });
+
+        return StatusCode(StatusCodes.Status201Created, report);
     }
 
     [HttpGet]

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using ZilEstate.Application.DTOs;
@@ -16,6 +17,7 @@ public class InquiriesController : ControllerBase
     private bool IsAdmin() => User.IsInRole("Admin");
 
     [HttpPost("property/{propertyId}")]
+    [EnableRateLimiting("inquiry")]
     public async Task<IActionResult> Create(int propertyId, [FromBody] CreateInquiryDto dto, CancellationToken ct)
     {
         try { return Ok(await _service.CreateAsync(propertyId, dto, ct)); }
