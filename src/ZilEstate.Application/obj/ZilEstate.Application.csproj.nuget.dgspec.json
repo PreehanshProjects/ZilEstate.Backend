@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Application\\ZilEstate.Application.csproj": {}
+    "/app/src/ZilEstate.Application/ZilEstate.Application.csproj": {}
   },
   "projects": {
-    "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Application\\ZilEstate.Application.csproj": {
+    "/app/src/ZilEstate.Application/ZilEstate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Application\\ZilEstate.Application.csproj",
+        "projectUniqueName": "/app/src/ZilEstate.Application/ZilEstate.Application.csproj",
         "projectName": "ZilEstate.Application",
-        "projectPath": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Application\\ZilEstate.Application.csproj",
-        "packagesPath": "C:\\Users\\preeh\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Application\\obj\\",
+        "projectPath": "/app/src/ZilEstate.Application/ZilEstate.Application.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/app/src/ZilEstate.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\preeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\ZilEstate.Domain.csproj": {
-                "projectPath": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\ZilEstate.Domain.csproj"
+              "/app/src/ZilEstate.Domain/ZilEstate.Domain.csproj": {
+                "projectPath": "/app/src/ZilEstate.Domain/ZilEstate.Domain.csproj"
               }
             }
           }
@@ -47,9 +40,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -88,33 +81,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\ZilEstate.Domain.csproj": {
+    "/app/src/ZilEstate.Domain/ZilEstate.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\ZilEstate.Domain.csproj",
+        "projectUniqueName": "/app/src/ZilEstate.Domain/ZilEstate.Domain.csproj",
         "projectName": "ZilEstate.Domain",
-        "projectPath": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\ZilEstate.Domain.csproj",
-        "packagesPath": "C:\\Users\\preeh\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\obj\\",
+        "projectPath": "/app/src/ZilEstate.Domain/ZilEstate.Domain.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/app/src/ZilEstate.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\preeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,9 +117,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -154,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

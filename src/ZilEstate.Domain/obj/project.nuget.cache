@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9OmtoiE4yio=",
+  "dgSpecHash": "yBJRkHnESgM=",
   "success": true,
-  "projectFilePath": "D:\\Personal applications\\ZilEstate\\backend\\src\\ZilEstate.Domain\\ZilEstate.Domain.csproj",
+  "projectFilePath": "/app/src/ZilEstate.Domain/ZilEstate.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
